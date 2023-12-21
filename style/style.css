@@ -41,7 +41,7 @@ html {
   align-items: center;
   padding: 3.5rem;
   background-color: #302d2d;
-  border-radius: 12px;
+  border-radius: 16px;
   border: 1px solid #585454;
   box-shadow: rgba(17, 17, 17, 0.71) 0px 8px 24px;
 }
@@ -59,14 +59,14 @@ html {
 }
 
 .convertor-block__country {
-  color: #e3e3e3;
+  color: #c6c6c6;
   font-size: 1.6rem;
   font-weight: 300;
   padding-left: 0.8rem;
 }
 
 .convertor-block__subscribe {
-  color: #e3e3e3;
+  color: #c6c6c6;
   font-size: 1.2rem;
   font-weight: 300;
   margin-bottom: 2rem;
@@ -74,8 +74,12 @@ html {
 
 .convertor-block__number {
   color: #fff;
+  background-color: #33323200;
   font-size: 3.2rem;
   font-weight: 500;
+  border: none;
+  text-align: center;
+  flex-basis: 50%;
 }
 
 .convertor-block__line {
@@ -86,7 +90,7 @@ html {
 }
 
 .convertor-block__text {
-  color: #e3e3e3;
+  color: #c6c6c6;
   font-size: 1.6rem;
   font-weight: 300;
 }

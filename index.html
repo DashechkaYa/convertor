@@ -15,18 +15,18 @@
 <body>
   <div class="page">
     <h1 class="page__title">Exchange</h1>
-    <div class="convertor-block">
+    <form class="convertor-block" id="form">
       <div class="convertor-block__item">
         <div class="convertor-block__row">
           <img class="convertor-block__flag-icon" src="img/flag-usa.jpg" alt="">
           <h3 class="convertor-block__country">USD</h3>
         </div>
         <p class="convertor-block__subscribe">US Dollar</p>
-        <p class="convertor-block__number">1</p>
+        <input class="convertor-block__number" name="usd" type="number">
         <div class="convertor-block__line"></div>
         <p class="convertor-block__text">1 USD = 37,62 UAH</p>
       </div>
-      <button class="convertor-block__arrows-button" type="button">
+      <button id="arrows-switch" class="convertor-block__arrows-button" type="button">
         <?xml version="1.0" ?><svg class="convertor-block__arrows-item" fill="none" viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg">
           <path
@@ -41,13 +41,13 @@
           <h3 class="convertor-block__country">UAH</h3>
         </div>
         <p class="convertor-block__subscribe">Ukrainian hryvnia</p>
-        <p class="convertor-block__number">37,62</p>
+        <input class="convertor-block__number" name="uah" type="number">
         <div class="convertor-block__line"></div>
         <p class="convertor-block__text">1 UAH = 0,027 USD</p>
       </div>
-    </div>
+    </form>
   </div>
-  <script src="script/main.js"></script>
+  <script src="script/main.js" type="module"></script>
 </body>
 
 </html>
