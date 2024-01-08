@@ -85,6 +85,16 @@ html {
   outline: none;
 }
 
+.convertor-block__number::-webkit-outer-spin-button,
+.convertor-block__number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.convertor-block__number {
+  -moz-appearance: textfield;
+}
+
 .convertor-block__line {
   height: 1px;
   background-color: #585454;
