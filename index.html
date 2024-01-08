@@ -16,7 +16,7 @@
   <div class="page">
     <h1 class="page__title">Exchange</h1>
     <form class="convertor-block" id="form">
-      <div class="convertor-block__item">
+      <div class="convertor-block__item" id="USD-block">
         <div class="convertor-block__row">
           <img class="convertor-block__flag-icon" src="img/flag-usa.jpg" alt="">
           <h3 class="convertor-block__country">USD</h3>
@@ -24,7 +24,7 @@
         <p class="convertor-block__subscribe">US Dollar</p>
         <input class="convertor-block__number" name="usd" type="number">
         <div class="convertor-block__line"></div>
-        <p class="convertor-block__text">1 USD = 37,62 UAH</p>
+        <p class="convertor-block__text" id="text-USD"></p>
       </div>
       <button id="arrows-switch" class="convertor-block__arrows-button" type="button">
         <?xml version="1.0" ?><svg class="convertor-block__arrows-item" fill="none" viewBox="0 0 24 24"
@@ -35,7 +35,7 @@
             d="M19.0074 11.0159C19.5597 11.0159 20.0074 10.5682 20.0074 10.0159C20.0074 9.6585 19.82 9.3449 19.538 9.16807L16.8504 6.48045C16.4598 6.08993 15.8267 6.08993 15.4361 6.48045C15.0456 6.87098 15.0456 7.50414 15.4361 7.89467L16.5574 9.01589L9.00745 9.01589C8.45516 9.01589 8.00745 9.46361 8.00745 10.0159C8.00745 10.5682 8.45516 11.0159 9.00745 11.0159L18.958 11.0159C18.9671 11.016 18.9762 11.016 18.9854 11.0159H19.0074Z" />
         </svg>
       </button>
-      <div class="convertor-block__item">
+      <div class="convertor-block__item" id="UAH-block">
         <div class="convertor-block__row">
           <img class="convertor-block__flag-icon" src="img/flag-ua.jpg" alt="">
           <h3 class="convertor-block__country">UAH</h3>
@@ -43,7 +43,7 @@
         <p class="convertor-block__subscribe">Ukrainian hryvnia</p>
         <input class="convertor-block__number" name="uah" type="number">
         <div class="convertor-block__line"></div>
-        <p class="convertor-block__text">1 UAH = 0,027 USD</p>
+        <p class="convertor-block__text" id="text-UAH"></p>
       </div>
     </form>
   </div>

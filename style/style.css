@@ -36,6 +36,8 @@ html {
 }
 
 .convertor-block__item {
+  width: 250px;
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -73,13 +75,14 @@ html {
 }
 
 .convertor-block__number {
+  width: 100%;
   color: #fff;
   background-color: #33323200;
   font-size: 3.2rem;
   font-weight: 500;
   border: none;
   text-align: center;
-  flex-basis: 50%;
+  outline: none;
 }
 
 .convertor-block__line {
@@ -87,6 +90,10 @@ html {
   background-color: #585454;
   width: 100%;
   margin-bottom: 2rem;
+}
+
+.convertor-block__number:hover + .convertor-block__line {
+  background-color: #5c67ff;
 }
 
 .convertor-block__text {
